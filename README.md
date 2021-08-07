@@ -1,6 +1,8 @@
-# CSS-very-basics
-My first attempt to learn CSS.
-[Referred to this Kevin Powell's playlist.](https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-) 
+# CSS-learning-basics
+My attempt to learn CSS.
+1. [Very basics](/main/CSS-very-basics) : [Referred to this Kevin Powell's playlist.](https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
+2. [Flexbox](/main/CSS-learning-flexbox) : [Referred to this Kevin Powell's playlist.](https://www.youtube.com/playlist?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd)
+3. [box-shadow](/main/CSS-learning-box-shadows) : [Referred to this Kevin Powell's playlist.]((https://www.youtube.com/playlist?list=PL4-IK0AVhVjPV_GpQj-jAiPP4MrQDoRcM)
 
 Some important notes to myself :
 1. <b>em and rem :</b><br>Use rem for setting font sizes. Using em may lead to compounding issues. em set to font sizes references to its parent element while rem refers to the root(html) element. em set to any other property(margin, padding) besides font size refers to the font size of that element and not the root element. Thus, prefer rem for other uses. [This](https://www.youtube.com/watch?v=pautqDqa54I)
