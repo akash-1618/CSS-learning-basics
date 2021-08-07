@@ -1,0 +1,63 @@
+body {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background: rgb(140, 255, 197);
+}
+
+h1 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: darkolivegreen;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: dimgray;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.box1 {
+    background: pink;
+}
+
+.box2 {
+    background: red;
+}
+
+.box3 {
+    background: firebrick;
+}
+
+.box4 {
+    background: orange;
+}
+
+.box5 {
+    background: yellow;
+}
+
+.box6 {
+    background: springgreen;
+    clear: both;
+}
+
+.box7 {
+    background: green;
+}
+
+.box8 {
+    background: blue;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: purple;
+}

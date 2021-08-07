@@ -1,0 +1,46 @@
+body {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background: lightgoldenrodyellow;
+    text-align: center;
+}
+
+h1 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: mediumblue;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: lightslategray;
+}
+
+p {
+    color: gray;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    background-color: lightpink;
+    padding: 30px;
+    list-style-position: inside;
+    /*Firefox and safari have default values as inside but Chrome has default value as outside.*/
+}
+
+ul {
+    list-style-image: url(../img/icons8-fig-fruit-16.png);
+    background: lightgreen;
+    padding: 30px;
+    list-style-position: inside;
+}
+
+ol li {
+    background: lightskyblue;
+    margin-top: 5px;
+}
+
+ul li {
+    background: lightyellow;
+    margin-top: 5px;
+}

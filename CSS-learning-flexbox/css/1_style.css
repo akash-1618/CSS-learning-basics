@@ -1,0 +1,41 @@
+    .html {
+        font-size: 16px;
+    }
+    
+    .container {
+        background: pink;
+        width: 50vw;
+        height: 50vh;
+        padding: 0.5rem;
+        margin: 25vh auto 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*row for navigation; column for lists*/
+        /*default is nowrap
+        "flex-flow: row wrap;"  short for direction and wrap
+        flex set to nowrap acts as max-width to the item*/
+        justify-content: stretch;
+        /*justify-content moves content relative to the main axis
+        flex-start starts the content from the extreme left, flex-end ends the content on the extreme right of the div
+        space-between puts first element on the extreme left, last on the extreme right and puts equal spacing between all the elements
+        space-around puts equal margin around all the items*/
+        /*align-items: flex-start;*/
+        /*align-items works on the cross axis(the opposite axis)
+        stretch is the default
+        flex-start shrinks the content down to the minimum size
+        */
+        align-content: center;
+        /*align-content works when the content has multiple lines*/
+        /*align-items:center centers the elements each one into the available space
+        align-content: center aligns all the content in the middle*/
+    }
+    
+    .item {
+        background: lightblue;
+        margin: 0.5em;
+    }
+    
+    .big {
+        font-size: 2rem;
+    }

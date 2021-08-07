@@ -1,0 +1,39 @@
+body {
+    background: rgb(140, 180, 255);
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+header {
+    background-color: darkcyan;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    clear: both;
+    background-color: darkcyan;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background: black;
+}
+
+h1 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: pink;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: lightgreen;
+}
+
+p {
+    color: gray;
+}
+
+a {
+    color: lime;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:hover,
+a:focus {
+    color: skyblue;
+}
+
+.body-text {
+    background-color: springgreen;
+    padding: 50px;
+}
+
+.body-text p {
+    /*selects only the paragraphs within the "body-text" element*/
+    color: black;
+}
+
+.body-text a {
+    color: darkblue;
+}
+
+.body-text a:hover {
+    color: orangered;
+}
+
+
+/*Adding a hover below would overwrite all the properties of link hover above and all the links would have orangered colour.*/
+
+
+/*
+a:hover {
+    color: orangered;
+}
+*/
+
+
+/*since specificity problem arises, got to increase the specificity points. 
+Check for specificity on Specificity calculator*/
+
+.important-link,
+.body-text .important-link {
+    color: orange;
+}
+
+
+/*
+//ALT-OPTION
+
+.important-link{
+    color: orange !important;
+}
+//never use it though; overwrites every css for links later.
+//Don't use it unless you run into the trouble of writing many selectors.
+*/

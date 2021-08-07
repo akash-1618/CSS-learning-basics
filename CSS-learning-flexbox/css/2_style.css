@@ -1,0 +1,46 @@
+.html {
+    font-size: 16px;
+}
+
+.container {
+    background: pink;
+    width: 50vw;
+    height: 50vh;
+    padding: 0.5rem;
+    margin: 25vh auto 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    background: lightblue;
+    margin: 0.5em;
+}
+
+.one {
+    flex-grow: 1;
+    /*flex-grow : default value is 0. 
+    If set higher, the item would take every available space in the flex div. 
+    If two items have flex values more than 0, they'd take available space according to the values.*/
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.two {
+    flex-grow: 0;
+    flex-shrink: 1;
+    /*flex-shrink : default value is 0.
+    If set higher, the flex would shrink faster. 
+    Suppose flex-basis value is set to 200px, if the window size is reduced, this item will shrink comparatively faster than the other items.*/
+    flex-basis: 200px;
+    align-self: flex-end;
+}
+
+.three {
+    flex-grow: 0;
+    flex-shrink: 3;
+    flex-basis: 200px;
+    /*flex-basis : if space is available, how much space should an item take. Value can be given in unit sizes.*/
+    /*Shorthand :*/
+    flex: 0 3 200px;
+}

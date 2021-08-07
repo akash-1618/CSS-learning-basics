@@ -1,0 +1,69 @@
+body {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background-image: url(../img/jasmine.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: lightcyan;
+}
+
+p {
+    color: white;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.box1 {
+    background: pink;
+}
+
+.box2 {
+    background: #ff0000;
+}
+
+.box3 {
+    background: hsl(340, 100%, 23%);
+}
+
+.box4 {
+    background: hsla(255, 50%, 70%, .8);
+}
+
+.box5 {
+    background: yellow;
+}
+
+.box6 {
+    background: springgreen;
+}
+
+.box7 {
+    background: rgb(0, 255, 0, 0.6);
+}
+
+.box8 {
+    background: #4fffdf;
+}
+
+.box9 {
+    background: indigo;
+    opacity: .3;
+    /*also makes the the content within opaque*/
+}
+
+.box10 {
+    background: rgb(183, 0, 255, 0.8);
+}

@@ -1,0 +1,57 @@
+/*Always mention what font you'd use
+Most of the times, not all OS would have all the fonts.
+Use font stack in such cases.
+https://www.cssfontstack.com/
+*/
+
+
+/*If a font name has multiple words, put them all inside quotation marks.*/
+
+body {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background: lightblue;
+}
+
+h1 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: darkblue;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    /*Alters the gap between elements that is caused by default margins.*/
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+    /*Line height alters the space between lines. Put value as 1(no unit, also any no. can be used) to get line equal to the font size. Also, pixel values can be used.*/
+    line-height: 1.4;
+    /*font style being italic*/
+    font-style: italic;
+    /*aligns text; avoid using justify value*/
+    text-align: center;
+    /*
+    Transforms the text.
+    uppercase - capitalizes every letter
+    capital - capitaalizes first letter
+    lowercase, etc
+    */
+    text-transform: capitalize;
+}
+
+.lighter {
+    /*font weight adds or reduces the weight of the font thickness.*/
+    font-weight: lighter;
+}
+
+.bolder {
+    font-weight: bolder;
+    /*underline, overline, line-through*/
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}

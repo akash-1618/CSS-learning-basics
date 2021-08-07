@@ -1,0 +1,64 @@
+body {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background: rgb(140, 255, 197);
+}
+
+h1 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: darkolivegreen;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: dimgray;
+}
+
+
+/*"clear" clears the floating items and starts fresh*/
+
+
+/*
+p {
+    background-color: yellow;
+    clear: both;
+}
+
+.red-box {
+    height: 500px;
+    width: 500px;
+    background: rgba(255, 0, 0, .5);
+    float: left;
+    margin-right: -50px;
+}
+
+.blue-box {
+    height: 400px;
+    width: 700px;
+    background: blue;
+}
+*/
+
+p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    color: white;
+}
+
+.red-box {
+    width: 500px;
+    background: rgba(255, 0, 0, .5);
+    float: left;
+}
+
+.blue-box {
+    width: 500px;
+    background: blue;
+    float: right;
+}
+
+img {
+    float: left;
+}

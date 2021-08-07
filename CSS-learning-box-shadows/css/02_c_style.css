@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300,700');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/halftone-yellow.png');
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    padding: 3em;
+    place-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+code {
+    background: rgba(black, .15);
+    padding: .1em .2em;
+    border-radius: .1em;
+}
+
+
+/* On hover, to show an element get elevated, modify the box shadow. */
+
+
+/* .box {
+    background: white;
+    padding: 2em;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .25);
+    transition: transform 300ms;
+}
+
+.box:hover {
+    transform: scale(1.1);
+} */
+
+
+/* .box {
+    background: white;
+    padding: 2em;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .25);
+    transition: transform 300ms, box-shadow 300ms;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 70px rgba(0, 0, 0, .25);
+} */
+
+.box {
+    background: white;
+    padding: 2em;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .25);
+    transition: transform 300ms, box-shadow 300ms;
+    position: relative;
+}
+
+.inner-box {
+    padding: .25em;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .25);
+    position: absolute;
+    background: white;
+    bottom: -25px;
+}

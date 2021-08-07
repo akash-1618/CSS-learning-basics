@@ -1,0 +1,49 @@
+body {
+    background-color: skyblue;
+    color: blue;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 70px;
+    color: blue
+}
+
+p {
+    color: #2f4c5c;
+}
+
+
+/*This is a CSS comment*/
+
+
+/*In CSS file, to write style for class, use "." as an identifier; and use "#" as an identifier for ID.*/
+
+.intro {
+    font-size: 30px;
+    color: green;
+}
+
+.top-section {
+    background: pink;
+}
+
+.bottom-section {
+    background: whitesmoke;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.accent-color {
+    color: red;
+}
+
+#top-id {
+    background: pink;
+}
+
+#bottom-id {
+    background: yellowgreen;
+}

@@ -1,0 +1,39 @@
+body {
+    background-image: url(../img/more-leaves.png);
+    color: blue;
+    font-size: 21px;
+}
+
+
+/*background repeated but not visible size. image itself has repetitive patterns.
+Image borrowed from https://www.toptal.com/designers/subtlepatterns/ */
+
+h1 {
+    font-size: 70px;
+    color: blue
+}
+
+p {
+    color: red;
+}
+
+.p1 {
+    color: aqua;
+    font-weight: bold;
+}
+
+.box {
+    background-image: url(../img/jasmine.jpg);
+    margin: 50px;
+    padding: 50px;
+    background-size: cover;
+    /*
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: bottom;
+    */
+}
+
+
+/*More padding gives more background.*/

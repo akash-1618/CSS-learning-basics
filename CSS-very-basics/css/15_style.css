@@ -1,0 +1,67 @@
+body {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background: black;
+}
+
+h1 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: pink;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: lightgreen;
+}
+
+p {
+    color: gray;
+}
+
+
+/*
+a {
+    color: lightblue;
+}
+*/
+
+
+/*PA pseudo-class is used to define a special state of an element.*/
+
+a:link {
+    /*For normal link that isn't hovered or visited*/
+    color: limegreen;
+    text-decoration: none;
+}
+
+a:visited {
+    /*for visited links*/
+    color: pink;
+}
+
+a:hover {
+    /*activates only when the anchor element is hovered*/
+    color: red;
+}
+
+a:active {
+    /*the moment when the link is clicked*/
+    color: yellow;
+}
+
+
+/*the order must be link -> visited -> hover -> active*/
+
+a:focus {
+    /*for switching links through tab key*/
+    color: skyblue;
+}
+
+
+/*
+a:hover,
+a:focus {
+    color: skyblue;
+}
+*/
