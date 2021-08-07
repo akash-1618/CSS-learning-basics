@@ -14,4 +14,8 @@ Most of the times, not all OS and/or browsers would have all the fonts. Use font
 4. <b>List style position :</b><br>list-style-position: inside;<br>Firefox and safari have default values as inside but Chrome has default value as outside. Set it as INSIDE.
 5. <b>vmin for title :</b><br>Use vmin for title's font size for better responsiveness, but it may backfire in mobile's landscape view.
 6. <b>ROFL! Both are same :</b><br>width: 600px; max-width: 100%; <br> width: 100%; max-width: 600px; <br> [This](https://css-tricks.com/tale-width-max-width/)
-7. <b></b><br>
+7. <b>For colour property of box shadows :</b><br> Safari doesn't inherit the element's colour(puts on transparent rather). It must be specified explicitly. [This](https://www.youtube.com/watch?v=-JNRQ5HjNeI)
+8. <b></b><br>
+
+
+[Additional reference](https://www.youtube.com/playlist?list=PL4-IK0AVhVjP27yZLwW-gkPggRps0CCnP)
