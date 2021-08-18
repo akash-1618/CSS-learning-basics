@@ -15,7 +15,7 @@ Most of the times, not all OS and/or browsers would have all the fonts. Use font
 5. <b>vmin for title :</b><br>Use vmin for title's font size for better responsiveness, but it may backfire in mobile's landscape view.
 6. <b>ROFL! Both are same :</b><br>width: 600px; max-width: 100%; <br> width: 100%; max-width: 600px; <br> [This](https://css-tricks.com/tale-width-max-width/)
 7. <b>For colour property of box shadows :</b><br> Safari doesn't inherit the element's colour(puts on transparent rather). It must be specified explicitly. [This](https://www.youtube.com/watch?v=-JNRQ5HjNeI)
-8. <b>Organizing CSS :</b><br><b>a) Display stuff - </b><br> display:flex , etc.<br><b>b) Positioning stuff - </b><br> position : absolute;<br> right : 2em; etc. <br><b>c) Box-model stuff - </b><br> height : 30%;<br> background : inherit; etc.<br><b>d) Typography - </b><br> style of a font - family, size and weight, line height, and the glyph variants<br><b>e) Manipulation - </b><br> transform, filter, opacity, etc.<br><b>f) Miscellaneous - </b><br> Border radius, box shadow, etc.<br>[This](https://www.youtube.com/watch?v=3Y03OSNw6zo)
+8. <b>Organizing CSS :</b><br><br><b>a) Display stuff - </b><br> display:flex , etc.<br><br><b>b) Positioning stuff - </b><br> position : absolute;<br> right : 2em; etc. <br><br><b>c) Box-model stuff - </b><br> height : 30%;<br> background : inherit; etc.<br><br><b>d) Typography - </b><br> style of a font - family, size and weight, line height, and the glyph variants<br><br><b>e) Manipulation - </b><br> transform, filter, opacity, etc.<br><br><b>f) Miscellaneous - </b><br> Border radius, box shadow, etc.<br>[This](https://www.youtube.com/watch?v=3Y03OSNw6zo)
 9. <b></b><br>
 
 
