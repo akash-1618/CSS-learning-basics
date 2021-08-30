@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+/* Pseudo elements are inline by default.
+Change it to display block to see the difference. */
+/* If using ::before, the content doesn't get inserted before the 
+element but gets inserted before the content of that element/div. */
+p::before {
+  content: '';
+  background-color: red;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+/* PSEUDO ELEMENTS DON'T WORK ON IMAGES.
+Image itself is the content.
+They don't fit into the typical content model of css. */
+/* img::before {
+    content: '';
+    background-color: orange;
+    display: block;
+    width: 100px;
+    height: 100px;
+} */
+p::after {
+  content: 'hello';
+  background-color: aqua;
+  font-size: 100px;
+  font-weight: 900;
+}
+/*# sourceMappingURL=01_style.css.map */
