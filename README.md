@@ -26,6 +26,6 @@ Most of the times, not all OS and/or browsers would have all the fonts. Use font
 
 
 
-[Additional reference](https://www.youtube.com/playlist?list=PL4-IK0AVhVjP27yZLwW-gkPggRps0CCnP)
+[Additional reference](https://www.youtube.com/playlist?list=PL4-IK0AVhVjP27yZLwW-gkPggRps0CCnP) by Kevin Powell.
 
  <b></b><br>
